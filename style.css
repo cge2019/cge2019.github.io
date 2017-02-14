@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+h1,p {
+   font-family: 'Rajdhani', sans-serif;
+  color: #483D8B;
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+}
+
+#top {
+  display: flex;
+  margin-left: 15%;
+  padding: 0;
+  justify-content: center;
+}
+
+#logo {
+  display: inline;
+  float: left;
+  text-align: right;
+  width: 15%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: rgb(230, 249, 255);
+}
+
+.timer-block {
+  float: right;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+}
+
+.figure {
+    position: relative;
+    color: #D4AF37;
+    height: 110px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 8px; 
+    font-size: 50px;
+    text-align: center;
+    @include box-shadow(0 3px 4px 0 rgba(0, 0, 0, .2),inset 2px 4px 0 0 rgba(255, 255, 255, .08)); }
+
+.timerButton {
+    width: 100px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+  margin: 5px;
+}
+
+.sitesButton{
+
+	width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 475px;
+
+}
+
+
+#SitesTab{
+
+font-family: 'Rajdhani', sans-serif;
+margin-left: 150px;
+
+}
+
+#buttons {
+  display: table;
+  margin: auto;
+}
+
+.unit-timer {
+  display: flex;
+  justify-content: center;
+}
+
+form{
+    margin: 0 auto; 
+    width:250px;
+  
+}
+
+input{
+  background-color:#FFF;
+  height: 15px;
+  width: 200px;
+}
+
+
+
+.figure {
+    position: relative;
+    height: 110px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 8px; 
+    @include box-shadow(0 3px 4px 0 rgba(0, 0, 0, .2),inset 2px 4px 0 0 rgba(255, 255, 255, .08)); }
+#set {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.unit-timer {
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  display: inline;
+  float: left;
+  width: 15%;
+  min-height: 100%;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #483D8B;
+    /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: right;
+}
+
+
+li a:hover {
+    background-color: rgb(230, 249, 255);
+    color: black;
+    border-style: hidden;
+}
+
+li {
+  border-style: groove;
+}
+
+li a:active { /*change color when hovering on page */
+    background-color: #4CAF50;
+     background-color: rgb(230, 249, 255);
+    color: black;
+    border-style: hidden;
+}
+
+/*About Page CSS*/
+
+.our_beautiful_images{
+  position:relative;
+  width:800px;
+  padding-top:25px;
+  padding-right:100px;
+}
+
+
+img{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #483D8B;
+    padding: 4px; 
+    width:180px;
+    height:180px;
+}
+.names_container{
+  position:relative;
+}
+
+#colon {
+  margin-top: 5%;
+  margin-right: 0.5%;
+  color: #D4AF37;
+}
+
+#change-style{
+  position:relative;
+  margin-left:750px;
+  font-weight: bold;
+    font-size: 18px;
+    color: #483D8B;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+#view-chart{
+  position:absolute;
+  margin-left: 200px;
+  border:none;
+  height: 350px;
+  width: 400px;
+}
+
+#future-table{
+  position:absolute;
+  margin-left: 950px;
+  top: 500px: 
+}
