@@ -60,13 +60,26 @@ body {
   margin: 5px;
 }
 
-.sitesButton{
+.setsitesButton{
 
 	width: 100px;
     height: 40px;
-    margin-top: 25px;
+    margin-top: 5px;
     font-size: 18px;
     font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    margin-left: 475px;
+
+}
+
+.addsitesButton{
+
+	width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
     margin-left: 475px;
 
 }
@@ -78,6 +91,8 @@ font-family: 'Rajdhani', sans-serif;
 margin-left: 150px;
 
 }
+
+
 
 #buttons {
   display: table;
@@ -201,6 +216,7 @@ img{
 
 #change-style{
   position:relative;
+  margin-top: 20px;
   margin-left:750px;
   font-weight: bold;
     font-size: 18px;
@@ -221,4 +237,26 @@ img{
   position:absolute;
   margin-left: 950px;
   top: 500px: 
+}
+
+
+#past-data{
+  position:absolute;
+  margin-top: 50px;
+  margin-left: 950px;
+  top: 500px: 
+}
+
+table {
+    font-family: 'Rajdhani', sans-serif;
+    border-collapse: collapse;
+    width: "250";
+}
+
+td, th {
+
+  font-family: 'Rajdhani', sans-serif;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
